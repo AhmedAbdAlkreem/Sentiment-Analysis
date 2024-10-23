@@ -7,18 +7,20 @@ This project is aimed at performing sentiment analysis on a Twitter dataset from
 The project also includes the preprocessing of raw text data, such as removing special characters, tokenization, lemmatization, removing stopwords, and converting text to lowercase. The model is deployed using Streamlit, enabling a user-friendly web interface for real-time tweet sentiment analysis.
 Project Features
 
-    Data Preprocessing:
-        Removing Special Characters: Cleaning the dataset by removing unnecessary characters (e.g., hashtags, mentions, punctuation).
-        Tokenization: Splitting text into tokens (individual words or phrases).
-        Removing Stopwords: Eliminating common words that don’t contribute to sentiment (e.g., "the", "is", "in").
-        Lemmatization: Converting words to their base or root form.
-        Lowercasing: Converting all text to lowercase for uniformity.
+<b>Data Preprocessing:</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;Removing Special Characters: Cleaning the dataset by removing unnecessary characters (e.g., hashtags, mentions, punctuation).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Tokenization: Splitting text into tokens (individual words or phrases).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Removing Stopwords: Eliminating common words that don’t contribute to sentiment (e.g., "the", "is", "in").<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Lemmatization: Converting words to their base or root form.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Lowercasing: Converting all text to lowercase for uniformity.
 
-    Sentiment Classification using BERT:
-        Fine-tuning the BERT model to predict tweet sentiment (positive, negative, or neutral).
 
-    Deployment:
-        A Streamlit web application is created to provide a simple interface for users to input tweets and receive sentiment predictions in real-time.
+
+<b>Sentiment Classification using BERT:<b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;Fine-tuning the BERT model to predict tweet sentiment (positive, negative, or neutral).<br>
+
+<b>Deployment:</b>
+&nbsp;&nbsp;&nbsp;&nbsp;A Streamlit web application is created to provide a simple interface for users to input tweets and receive sentiment predictions in real-time.
 
 <b>Dataset</b>
 
