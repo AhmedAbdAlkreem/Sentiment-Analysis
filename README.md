@@ -19,7 +19,7 @@ Project Features
 <b>Sentiment Classification using BERT:<b><br>
 &nbsp;&nbsp;&nbsp;&nbsp;Fine-tuning the BERT model to predict tweet sentiment (positive, negative, or neutral).<br>
 
-<b>Deployment:</b>
+**Deployment:**  
 &nbsp;&nbsp;&nbsp;&nbsp;A Streamlit web application is created to provide a simple interface for users to input tweets and receive sentiment predictions in real-time.
 
 <b>Dataset</b>
