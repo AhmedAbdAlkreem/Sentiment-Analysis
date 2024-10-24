@@ -94,13 +94,13 @@ After the model is trained, you can run the Streamlit app for real-time sentimen
     bash
 
     streamlit run app.py
-
+ 
 This will launch a web interface where you can input tweets and receive sentiment predictions.
 
 <b>Results</b>
 
 The BERT model achieves 0.76% accuracy on the test set, outperforming traditional machine learning approaches due to its ability to capture the contextual meaning of words in tweets. Detailed evaluation metrics such as precision, recall, and F1-score are available in the training logs.
-
+ 
 <b>Conclusion</b>
 
 This project demonstrates the application of state-of-the-art NLP models (BERT) for sentiment analysis on social media data, leveraging both text preprocessing and deep learning. The deployment using Streamlit provides a simple interface for real-time sentiment predictions, making it a useful tool for businesses or researchers to gauge public sentiment.
